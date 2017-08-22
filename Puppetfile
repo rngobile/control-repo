@@ -15,3 +15,7 @@ forge "http://forge.puppetlabs.com"
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'motd',
+  :git => 'git@github.com:rngobile/puppet_motd.git',
+  :branch => 'master'
