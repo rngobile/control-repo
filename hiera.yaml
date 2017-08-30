@@ -5,6 +5,7 @@ hierarchy:
         - name: "Environment Data"
           backend: yaml
           paths:
+                - "nodes/%{clientcert}"
                 - 'nodes/%{trusted.certname}'
                 - 'nodes/%{facts.fqdn}'
                 - 'nodes/%{facts.hostname}'
