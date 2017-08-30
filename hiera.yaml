@@ -3,8 +3,8 @@ version: 4
 datadir: hieradata
 hierarchy:
         - name: "Environment Data"
-        - backend: yaml
-        - paths:
+          backend: yaml
+          paths:
                 - 'nodes/%{trusted.certname}'
                 - 'nodes/%{facts.fqdn}'
                 - 'nodes/%{facts.hostname}'
