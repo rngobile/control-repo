@@ -1,0 +1,5 @@
+---
+classes:
+        - 'motd'
+
+message: "Hello puppetnode.localdomain from Hiera" 

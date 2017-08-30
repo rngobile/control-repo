@@ -34,3 +34,5 @@ node default {
   #   class { 'my_class': }
   # class { 'motd': }
 }
+
+notify { "This is from -- ${message}":}
