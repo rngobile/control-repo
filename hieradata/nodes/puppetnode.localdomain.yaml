@@ -2,4 +2,4 @@
 classes:
         - 'motd'
 
-message: "Hello puppetnode.localdomain from Hiera" 
+message: "Hello ${::osfamily} from Hiera" 
