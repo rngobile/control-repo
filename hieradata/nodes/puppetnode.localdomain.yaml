@@ -2,4 +2,4 @@
 classes:
         - 'motd'
 
-message: "Hello $facts['osfamily'] from Hiera" 
+message: "Hello $facts['os']['family'] from Hiera" 
