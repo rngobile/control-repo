@@ -36,4 +36,4 @@ node default {
   # class { 'motd': }
 }
 
-notify { "This is from -- ${message}":}
+notify { "This is from -- %{hiera('message')}":}
