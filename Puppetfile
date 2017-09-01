@@ -19,3 +19,7 @@ forge "http://forge.puppetlabs.com"
 mod 'motd',
   :git => 'git@github.com:rngobile/puppet_motd.git',
   :branch => 'master'
+
+mod 'tns_repo',
+  :git => 'git@github.com:rngobile/tns_repo.git',
+  :branch => 'master'
