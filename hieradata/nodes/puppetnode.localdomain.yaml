@@ -4,3 +4,15 @@ classes:
         - 'tns_repo'
 
 message: "Hello $facts['os']['family'] from Hiera" 
+
+tns_entries:
+        - aliase: 'cd00'
+          address: 'cd00.database.org'
+          port: '1521'
+          connection_type: 'SERVICE_NAME'
+          connection_name: 'cd00'
+        - aliase: 'dm00'
+          address: 'dm00.database.oracle'
+          port: '3306'
+          connection_name: 'dm00'
+          
