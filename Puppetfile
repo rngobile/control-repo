@@ -23,3 +23,11 @@ mod 'motd',
 mod 'tns_repo',
   :git => 'git@github.com:rngobile/tns_repo.git',
   :branch => 'master'
+
+mod 'profile',
+  :git => 'git@github.com:rngobile/puppet_profile.git',
+  :branch => 'master'
+
+mod 'role',
+  :git => 'git@github.com:rngobile/puppet_role.git',
+  :branch => 'master'
