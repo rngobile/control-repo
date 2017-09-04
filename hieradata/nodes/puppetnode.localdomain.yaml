@@ -6,13 +6,13 @@ classes:
 message: "Hello $facts['os']['family'] from Hiera" 
 
 tns_entries:
-        - database: 'cd00'
-          address: 'cd00.database.org'
-          port: '1521'
-          connection_type: 'SERVICE_NAME'
-          connection_name: 'cd00'
-        - database: 'dm00'
-          address: 'dm00.database.oracle'
-          port: '3306'
-          connection_name: 'dm00'
+        cd00:
+                address: 'cd00.database.org'
+                port: '1521'
+                connection_type: 'SERVICE_NAME'
+                connection_name: 'cd00'
+        dm00:
+                address: 'dm00.database.oracle'
+                port: '3306'
+                connection_name: 'dm00'
           
