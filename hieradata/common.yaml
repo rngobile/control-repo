@@ -3,17 +3,17 @@ message: "This node is using common data"
 
 tns_entries:
         cd00:
-                address: 'cd00.database.org'
-                port: '1521'
-                sid: 'cd00'
-                allow_restrict: 'What?'
+                address: cd00.database.org
+                port: 1521
+                sid: cd00
+                allow_restrict: What?
         dm00:
-                address: 'dm00.database.oracle'
-                port: '3306'
-                service_name: 'dm00'
+                address: dm00.database.oracle
+                port: 3306
+                service_name: dm00
                 allow_restrict: FALSE
         rac:
-                address: 'racnode1.oracle.com,racnode2.oracle.com'
-                port: '1521'
-                service_name: 'rac'
+                address: racnode1.oracle.com,racnode2.oracle.com
+                port: 1521
+                service_name: rac
                 allow_restrict: TRUE
