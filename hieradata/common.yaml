@@ -12,9 +12,7 @@ tns_entries:
                 port: '3306'
                 connection_name: 'dm00'
         rac:
-                address:
-                        racnode1.oracle.com
-                        racnode2.oracle.com
+                address: 'racnode1.oracle.com,racnode2.oracle.com'
                 port: '1521'
                 connection_type: 'SERVICE_NAME'
                 connection_name: 'rac'
