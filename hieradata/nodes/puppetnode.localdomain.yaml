@@ -1,7 +1,6 @@
 ---
 classes:
-        - 'motd'
-        - 'tns_repo'
+        - '::role::oracle'
 
 message: "Hello $facts['os']['family'] from Hiera" 
 
