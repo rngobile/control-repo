@@ -5,14 +5,13 @@ tns_entries:
         cd00:
                 address: 'cd00.database.org'
                 port: '1521'
-                connection_type: 'SERVICE_NAME'
-                connection_name: 'cd00'
+                sid: 'cd00'
         dm00:
                 address: 'dm00.database.oracle'
                 port: '3306'
-                connection_name: 'dm00'
+                service_name: 'dm00'
         rac:
                 address: 'racnode1.oracle.com,racnode2.oracle.com'
                 port: '1521'
-                connection_type: 'SERVICE_NAME'
-                connection_name: 'rac'
+                service_name: 'rac'
+                allow_restrict: TRUE
