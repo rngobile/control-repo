@@ -6,10 +6,12 @@ tns_entries:
                 address: 'cd00.database.org'
                 port: '1521'
                 sid: 'cd00'
+                allow_restrict: 'What?'
         dm00:
                 address: 'dm00.database.oracle'
                 port: '3306'
                 service_name: 'dm00'
+                allow_restrict: FALSE
         rac:
                 address: 'racnode1.oracle.com,racnode2.oracle.com'
                 port: '1521'
